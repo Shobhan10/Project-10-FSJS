@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?w=740&t=st=1658736372~exp=1658736972~hmac=311c3078c75c077f05413965e0086087aa07936d8a53d305cd8db53f76a2d4f4");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    overflow-y: hidden;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 1% 7%;
+    align-items: center;
+}
+
+nav .logo h1 {
+    padding-top: 28px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+nav .list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 85px;
+    border-bottom: 1px solid white;
+    padding-bottom: 22px;
+}
+
+.list .list-items {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.list .contact-us {
+    display: flex;
+}
+
+.contact-us .contact-logo {
+    padding-top: 2px;
+}
+.contact-us .contact-logo img {
+    width: 75px;
+    cursor: pointer;
+}
+
+.contact-us .contact-details h2,h3 {
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section .content {
+    margin-left: 8%;
+    margin-top: 110px;
+}
+section .content h1 {
+    font-size: 58px;
+}
+section .content button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    width: 195px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 45px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+section .popup .img img {
+    width: 40px;
+    background-color: #ffffff;
+}
+section .popup-1 .img-1  {
+    width: 60px;
+    height: 30px;
+    padding-top: 2px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+section .popup article  {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.popup .popup-content-1 {
+    width: 235px;
+    height: 128px;
+    background-color: rgba(48, 70, 87, 0.747);
+    padding: 30px;
+}
+
+section .popup-1 {
+    position: absolute;
+    right: 9%;
+    top: 29%;
+}
+
+.lines-1 .line-1 {
+    background-color: #ffffff;
+    width: 1px;
+    height: 60px;
+}
+
+.lines-1 .circle-1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: -7px;
+}
+
+.lines-1 {
+    margin-left: 166px;
+}
+
+section .popup-2 {
+    position: absolute;
+    right: 33%;
+    top: 65%;
+}
+
+.popup .popup-content-2 {
+    width: 235px;
+    height: 150px;
+    background-color: rgba(48, 70, 87, 0.747);
+    padding: 30px;
+}
+
+section .popup-2 .img-2  {
+    width: 60px;
+    height: 35px;
+    padding-top: 2px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.lines-2 .line-2 {
+    background-color: #ffffff;
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    margin-left: 10px;
+    margin-left: 235px;
+    top: 40%;
+}
+
+.lines-2 .circle-2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 295px;
+    top: 35%;
+}
