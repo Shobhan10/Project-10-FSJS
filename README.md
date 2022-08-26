@@ -15,6 +15,7 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
   - Learned to use `relative` and `absolute` properties in a better way.
   - Learned to use flexbox more precisely.
   - Learned to write `html` from scratch to a full web page.
+  - Learned to make the website responsive.
 
 - It took around _5 hours_ to complete.
 
