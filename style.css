@@ -45,6 +45,10 @@ nav .list {
     padding-bottom: 22px;
 }
 
+nav .list i {
+    display: none;
+}
+
 .list .list-items {
     display: flex;
     list-style: none;
@@ -69,6 +73,61 @@ nav .list {
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1040px) {
+    nav .logo h1 {
+        padding-top: 0px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    nav .list {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        height: 65px;
+        border-bottom: 1px solid white;
+        padding-bottom: 15px;
+    }
+    .list .list-items {
+        gap: 30px;
+    }
+    .contact-us .contact-logo img {
+        width: 50px;
+        cursor: pointer;
+    }
+    .contact-us .contact-details h2,h3 {
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    nav {
+        margin-top: 0px;
+        height: 80px;
+    }
+    nav .list .list-items {
+        display: none;
+    }
+    nav .list i {
+        display: flex;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    nav .list {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav .logo {
+        margin-right: 35px;
+    }
+    nav .logo h1 {
+        padding-top: 0px;
+    }
 }
 
 /* ------------------------------ */
@@ -185,4 +244,42 @@ section .popup-2 .img-2  {
     position: absolute;
     margin-left: 295px;
     top: 35%;
+}
+
+
+@media screen and (max-width: 950px) {
+    section .content h1 {
+        font-size: 40px;
+    }
+    section .content button {
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    section .content {
+        margin-top: 170px;
+    }
+    section .content h1 {
+        font-size: 30px;
+    }
+    section .content button {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+    section .popup-1 {
+        position: absolute;
+        right: 7%;
+        top: 13%;
+    }
+    section .popup-2 {
+        position: absolute;
+        right: 33%;
+        top: 70%;
+    }
 }
