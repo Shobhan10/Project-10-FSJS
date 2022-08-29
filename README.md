@@ -6,10 +6,6 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 
 ![badge](https://img.shields.io/badge/HTML-CSS-blue)
 
-### Screenshot
-
-![Project-10 Screenshot](./project-10.png)
-
 - ### Learnings from this project:-
 
   - Learned to use `relative` and `absolute` properties in a better way.
@@ -20,3 +16,7 @@ Hi 👋 I am Shobhan Sundar Goutam. This project is made with the help of `HTML`
 - It took around _5 hours_ to complete.
 
 - Live Link:- [Interior Design Landing page](https://interiordesign-fsjs10.netlify.app/)
+
+### Screenshot
+
+![Project-10 Screenshot](./project-10.png)
